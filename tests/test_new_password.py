@@ -8,6 +8,6 @@ def test_password_characters():
     for char in password:
         assert char in valid_characters
 
-def test_default():
+def test_default(): #Ilja Prusakovs
     """ Тест проверяет значение по умолчанию """
     assert len(generate_password()) == 12
