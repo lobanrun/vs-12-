@@ -28,4 +28,8 @@ pytest
 
 Kodland
 Nikita Lobanov
+Ilja Prusakovs 
+Hristofor Sitnikov 
+Гербелев Иван 
+Roman Dementev
 Flizard25
