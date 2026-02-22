@@ -24,6 +24,7 @@ pip install pytest
 pytest
 ```
 
+
 ## Автор
 Kodland 
 Nikita Lobanov
@@ -33,3 +34,5 @@ Sasha Ivanova
 Hristofor Sitnikov 
 Гербелев Иван
 Roman Dementev
+Flizard25
+
