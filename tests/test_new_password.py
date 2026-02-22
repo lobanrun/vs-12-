@@ -59,9 +59,7 @@ def test_password_len():
     leng = len(password1)
     assert leng == 10
 
-Тест, что длина пароля соответствует заданной
-Тест, что два сгенерированных подряд пароля различаются
-"""
+
 
 def test_lenght_by_nikita_a():
     assert len(generate_password(10)) == 10
@@ -70,3 +68,6 @@ def test_passwords_are_different_by_nikita_a():
     password1 = generate_password()
     password2 = generate_password()
     assert password1 != password2
+    
+def test_thanks_for_use_our_project_by_flizard25():
+    print("Спасибо что воспользовались нашим проектом!")
