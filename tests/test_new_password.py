@@ -7,7 +7,16 @@ def test_password_characters():
     password = generate_password(100)  # Генерируем длинный пароль для более надежной проверки
     for char in password:
         assert char in valid_characters
-
+def test_password_not_s():
+    """Тест, что при генерации используются только допустимые символы"""
+    password1 = generate_password(10)  # Генерируем длинный пароль для более надежной проверки
+    password2 = generate_password(10)
+    assert password1 != password2
+def test_password_len():
+    """Тест, что при генерации используются только допустимые символы"""
+    password1 = generate_password(10)  # Генерируем длинный пароль для более надежной проверки
+    leng = len(password1)
+    assert leng == 10
 """
 Допиши еще один тест из предложенных. Или придумай свой.
 Если сможешь написать больше, то будет круто!
