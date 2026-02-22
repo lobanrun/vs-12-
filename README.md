@@ -25,7 +25,7 @@ pytest
 ```
 
 ## Автор
-
 Kodland 
+Nikita Lobanov
+Ilja Prusakovs
 Hristofor Sitnikov 
-
