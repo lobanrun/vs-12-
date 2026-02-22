@@ -26,7 +26,7 @@ pytest
 
 
 
-## Автор
+## Авторы
 Kodland  
 Nikita Lobanov  
 Nikita Andreev  
