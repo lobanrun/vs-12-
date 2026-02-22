@@ -26,5 +26,5 @@ pytest
 
 ## Автор
 
-Kodland
+Kodland \
 Ilja Prusakovs
