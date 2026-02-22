@@ -24,12 +24,15 @@ pip install pytest
 pytest
 ```
 
-## Авторы
 
-Kodland
+## Автор
+Kodland 
 Nikita Lobanov
-Ilja Prusakovs 
+Nikita Andreev
+Ilja Prusakovs
+Sasha Ivanova
 Hristofor Sitnikov 
-Гербелев Иван 
+Гербелев Иван
 Roman Dementev
 Flizard25
+
