@@ -15,3 +15,10 @@ def test_password_characters():
 Тест, что длина пароля соответствует заданной
 Тест, что два сгенерированных подряд пароля различаются
 """
+def test_length_roma():
+    password = generate_password(100)
+    assert len(password) == 100
+def test_razlychye_roma():
+    passwordone = generate_password(50)
+    passwordtwo = generate_password(50)
+    assert passwordone != passwordtwo
