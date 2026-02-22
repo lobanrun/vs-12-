@@ -27,4 +27,4 @@ pytest
 ## Автор
 
 Kodland
-Nikita Lobanov
+Антон Денисов
