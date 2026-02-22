@@ -9,6 +9,9 @@ def test_password_characters():
         assert char in valid_characters
 
 
+
+
+
 def test_default(): #Ilja Prusakovs
     """ Тест проверяет значение по умолчанию """
     assert len(generate_password()) == 12
@@ -27,3 +30,8 @@ def test_password_length_of_characters_by_ivan():
     assert len(password) == 80
 
     
+def test_passwords_are_different():
+    """Тест, что два сгенерированных подряд пароля различаются"""
+    password1 = generate_password(20)
+    password2 = generate_password(20)
+    assert password1 != password2, "Пароли не должны совпадать"
