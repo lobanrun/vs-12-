@@ -63,8 +63,6 @@ def test_password_len():
     leng = len(password1)
     assert leng == 10
 
-
-
 def test_lenght_by_nikita_a():
     assert len(generate_password(10)) == 10
     
