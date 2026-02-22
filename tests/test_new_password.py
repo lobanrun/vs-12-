@@ -4,7 +4,7 @@ from password.new_password import generate_password
 def test_password_characters():
     """Тест, что при генерации используются только допустимые символы"""
     valid_characters = string.ascii_letters + string.digits + string.punctuation
-    password = generate_password(100)  # Генерируем длинный пароль для более надежной проверки
+    password = generate_password(100) 
     for char in password:
         assert char in valid_characters
 def test_default(): #Ilja Prusakovs
@@ -18,6 +18,11 @@ def test_razlychye_roma():
     passwordone = generate_password(50)
     passwordtwo = generate_password(50)
     assert passwordone != passwordtwo
+
+
+
+def test_hristofor():
+    pass 
 
 def test_password_length_of_characters_by_ivan():
     """Тест, что при генерации пароля пароль генерируется нужной длинны"""
@@ -58,8 +63,6 @@ def test_password_len():
     password1 = generate_password(10)  
     leng = len(password1)
     assert leng == 10
-
-
 
 def test_lenght_by_nikita_a():
     assert len(generate_password(10)) == 10
