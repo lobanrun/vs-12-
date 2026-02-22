@@ -25,7 +25,12 @@ pytest
 ```
 
 ## Автор
-
-Kodland
+Kodland 
 Nikita Lobanov
+Nikita Andreev
+Ilja Prusakovs
+Sasha Ivanova
+Hristofor Sitnikov 
+Гербелев Иван
+Roman Dementev
 Shinkaruk Evgeniy(s1koi)
