@@ -25,6 +25,7 @@ pytest
 ```
 
 
+
 ## Автор
 Kodland 
 Nikita Lobanov
@@ -36,3 +37,5 @@ Hristofor Sitnikov
 Roman Dementev
 Flizard25
 Shinkaruk Evgeniy(s1koi)
+Антон Денисов
+
