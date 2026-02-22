@@ -27,3 +27,4 @@ pytest
 ## Автор
 
 Kodland
+Ilja Prusakovs
