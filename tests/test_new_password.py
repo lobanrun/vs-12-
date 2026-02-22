@@ -7,11 +7,7 @@ def test_password_characters():
     password = generate_password(100)  # Генерируем длинный пароль для более надежной проверки
     for char in password:
         assert char in valid_characters
-
-
-
-
-
+      
 def test_default(): #Ilja Prusakovs
     """ Тест проверяет значение по умолчанию """
     assert len(generate_password()) == 12
@@ -35,3 +31,15 @@ def test_passwords_are_different():
     password1 = generate_password(20)
     password2 = generate_password(20)
     assert password1 != password2, "Пароли не должны совпадать"
+    
+def test_password_not_s():
+    """Тест на совпадение генерации by s1koi"""
+    password1 = generate_password(10) 
+    password2 = generate_password(10)
+    assert password1 != password2
+    
+def test_password_len():
+    """Тест на проверку длины by s1koi"""
+    password1 = generate_password(10)  
+    leng = len(password1)
+    assert leng == 10
