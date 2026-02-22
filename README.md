@@ -24,7 +24,8 @@ pip install pytest
 pytest
 ```
 
-## Автор
+## Авторы
 
 Kodland
 Nikita Lobanov
+Flizard25
