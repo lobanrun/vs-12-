@@ -28,3 +28,4 @@ pytest
 
 Kodland
 Nikita Lobanov
+Shinkaruk Evgeniy(s1koi)
